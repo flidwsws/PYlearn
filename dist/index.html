@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#000000">
+  <meta name="description" content="PYlearn — 40 задач по Python: типы данных, ветвления, стандартная библиотека, коллекции, циклы и функции. Практика с проверкой решений.">
+  <title>PYlearn — Python шаг за шагом</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="themes.css">
+  <script>document.documentElement.dataset.theme="dark"</script>
+  <script type="module" src="app.js"></script>
+  <script type="module" src="preferences.js"></script>
+  <script type="module" src="music.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">К содержимому</a>
+  <aside class="sidebar" aria-label="Главная навигация">
+    <a class="brand" href="#path" aria-label="PYlearn — мой путь"><span class="brand-mark">py<span>_</span></span><span>PY<span class="brand-light">learn</span><i></i></span></a>
+    <div class="course-label">ТВОЙ ПЕРВЫЙ КОД</div>
+    <nav id="nav"></nav>
+    <div class="sidebar-bottom">
+      <div class="little-plant" aria-hidden="true"><svg viewBox="0 0 100 74"><path d="M50 62V27M50 47C20 48 23 24 23 24s29-3 27 23ZM50 35c-1-27 26-27 26-27s3 26-26 27Z" fill="#cde8d2" stroke="#5e9470" stroke-width="2"/><path d="M36 61h28l-4 12H40Z" fill="#d8d5c9"/></svg></div>
+      <strong>Рост начинается с малого</strong><p>Даже одна задача в день —<br>уже движение вперёд.</p>
+      <button class="help-button" data-action="help"><span data-icon="help"></span> Как здесь всё устроено</button>
+      <div class="sidebar-foot">СДЕЛАНО ДЛЯ ЛЮБОПЫТНЫХ <span>↗</span></div>
+    </div>
+  </aside>
+  <div class="app-shell">
+    <header class="topbar"><button class="mobile-menu icon-button" data-action="menu" aria-label="Открыть меню"><span data-icon="menu"></span></button><div class="breadcrumb">Обучение <span>/</span> <strong id="page-label">Мой путь</strong></div><div class="topbar-actions"><button class="search-trigger" data-action="search" aria-label="Найти задачу"><span data-icon="search"></span><span>Найти задачу</span><kbd>/</kbd></button><div class="preference-buttons"><button class="icon-button" id="sound-toggle" data-action="toggle-sound" aria-label="Выключить приветствие при входе" title="Приветствие при входе"></button></div><span class="streak" id="streak" title="Дни практики подряд"></span><button class="avatar" data-route="progress" aria-label="Мой прогресс">Я</button></div></header>
+    <main id="main" tabindex="-1"></main>
+    <footer class="page-footer"><span>Маленькие шаги. Настоящие навыки.</span><span>Python 3 <span class="footer-dot">•</span> Учись в своём темпе</span></footer>
+  </div>
+  <dialog id="dialog"></dialog><div class="toast" id="toast" role="status"></div>
+  <audio id="welcome-audio" src="audio/welcome.mp3" preload="auto"></audio>
+  <dialog id="welcome-dialog" class="welcome-dialog" aria-labelledby="welcome-title"><div class="welcome-emblem" aria-hidden="true">py<span>_</span></div><div class="eyebrow">ТВОЁ НОВОЕ ПРИКЛЮЧЕНИЕ</div><h2 id="welcome-title">Каждый мастер<br>когда-то начинал.</h2><p class="welcome-quote">«Быть программистом не так уж легко»</p><p class="welcome-caption">Но с каждой задачей становится понятнее.<br>Готов сделать первый шаг?</p><button class="primary" data-action="enter-with-sound">Войти со звуком <span aria-hidden="true">↗</span></button><button class="text-link" data-action="enter-silently">Войти без звука</button><p class="welcome-footnote">Приветствие можно выключить кнопкой звука вверху.</p></dialog>
+  <section class="focus-player" aria-label="Фоновая музыка">
+    <div class="focus-track"><span class="music-art" aria-hidden="true"><svg viewBox="0 0 24 24" class="icon"><path d="M9 18V5l11-2v13M9 8l11-2"/><ellipse cx="6" cy="18" rx="3" ry="2"/><ellipse cx="17" cy="16" rx="3" ry="2"/></svg></span><div class="focus-track-info"><strong>Тихий поток</strong><span id="music-status" role="status">Музыка для работы · без вокала</span></div><button id="music-toggle" class="music-play" type="button" aria-label="Включить музыку" aria-pressed="false"><svg viewBox="0 0 24 24" class="icon" aria-hidden="true"><path d="m8 5 11 7-11 7V5Z"/></svg></button></div>
+    <div class="music-volume-row"><label for="music-volume">Громкость</label><input type="range" id="music-volume" min="0" max="100" value="28" aria-label="Громкость музыки"><output for="music-volume" id="music-level">28%</output></div>
+    <audio id="focus-audio" src="audio/focus.mp3" loop preload="metadata"></audio>
+  </section>
+</body>
+</html>

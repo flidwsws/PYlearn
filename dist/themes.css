@@ -1,0 +1,144 @@
+.preference-buttons{display:flex;gap:8px}.preference-buttons .icon-button{width:30px;height:30px;border-color:transparent;background:none}.preference-buttons .icon{width:17px;height:17px}
+html[data-theme=dark]{color-scheme:dark;--bg:#171717;--paper:#202020;--ink:#e6e6e6;--muted:#9c9c9c;--text:#aeaeae;--green:#b3b3b3;--lime:#e0e0e0;--border:#353535;--soft:#2e2e2e}
+html[data-theme=dark] body{background:var(--bg);color:var(--ink)}
+html[data-theme=dark] .sidebar{background:#1c1c1c;border-color:var(--border)}
+html[data-theme=dark] .brand-mark{background:#515151;color:#f2f2f2}
+html[data-theme=dark] nav button{color:#a5a5a5}
+html[data-theme=dark] nav button:hover,html[data-theme=dark] nav button.active{background:#313131;color:#d8d8d8}
+html[data-theme=dark] .course-label,html[data-theme=dark] .sidebar-foot{color:#8a8a8a}
+html[data-theme=dark] .sidebar-bottom p{color:#9c9c9c}
+html[data-theme=dark] .help-button{color:#adadad}
+html[data-theme=dark] .topbar{background:#1c1c1c;border-color:var(--border)}
+html[data-theme=dark] .breadcrumb,html[data-theme=dark] .breadcrumb span{color:#868686}
+html[data-theme=dark] .breadcrumb strong{color:#cacaca}
+html[data-theme=dark] .search-trigger{color:#a0a0a0}
+html[data-theme=dark] kbd{background:#242424;border-color:#3e3e3e;color:#b1b1b1}
+html[data-theme=dark] .avatar{background:#383838;border-color:#4f4f4f;color:#d3d3d3}
+html[data-theme=dark] .page-intro p,html[data-theme=dark] .date-label{color:#9b9b9b}
+html[data-theme=dark] .hero{background:linear-gradient(110deg,#2d2d2d,#282828);border-color:#404040}
+html[data-theme=dark] .hero p{color:#b3b3b3}
+html[data-theme=dark] .hero .eyebrow{color:#c1c1c1}
+html[data-theme=dark] .hero-meta{color:#a0a0a0}
+html[data-theme=dark] .primary{background:#d7d7d7;border-color:#d7d7d7;color:#2b2b2b}
+html[data-theme=dark] .primary:hover{background:#e5e5e5;border-color:#e5e5e5}
+html[data-theme=dark] .floating-code{background:#353535;border-color:#505050;box-shadow:0 15px 35px #0d0d0d44}
+html[data-theme=dark] .floating-code code{color:#c3c3c3}
+html[data-theme=dark] .floating-code .pink{color:#b4b4b4}
+html[data-theme=dark] .floating-code .green{color:#dbdbdb}
+html[data-theme=dark] .code-dots i{background:#717171}
+html[data-theme=dark] .float-success{background:#363636;border-color:#505050;color:#d0d0d0}
+html[data-theme=dark] .path-art{filter:brightness(.65) saturate(.7)}
+html[data-theme=dark] .plan-card,html[data-theme=dark] .module-card,html[data-theme=dark] .task-row,html[data-theme=dark] .problem-card,html[data-theme=dark] .output-card,html[data-theme=dark] .cheat-content,html[data-theme=dark] .progress-overview,html[data-theme=dark] .achievement{background:var(--paper);border-color:var(--border)}
+html[data-theme=dark] .module-card.available{border-color:#666666;box-shadow:0 6px 25px #0d0d0d22}
+html[data-theme=dark] .module-card:hover,html[data-theme=dark] .task-row:hover{border-color:#808080;box-shadow:0 8px 25px #0d0d0d22}
+html[data-theme=dark] .module-card.locked h3{color:#b9b9b9}
+html[data-theme=dark] .module-description,html[data-theme=dark] .module-number,html[data-theme=dark] .module-bottom span,html[data-theme=dark] .module-mini-nav{color:#9c9c9c}
+html[data-theme=dark] .tags span{background:#292929;border-color:#3e3e3e;color:#aeaeae}
+html[data-theme=dark] .module-status,html[data-theme=dark] .module-status.completed,html[data-theme=dark] .badge,html[data-theme=dark] .pill{background:#373737;color:#cccccc}
+html[data-theme=dark] .lock-label{color:#929292!important}
+html[data-theme=dark] .module-icon{background:#383838;color:#c4c4c4}
+html[data-theme=dark] .module-icon.blue{background:#323232;color:#b3b3b3}
+html[data-theme=dark] .module-icon.purple{background:#2e2e2e;color:#a9a9a9}
+html[data-theme=dark] .module-icon.peach{background:#343434;color:#b1b1b1}
+html[data-theme=dark] .module-icon.pink{background:#303030;color:#b1b1b1}
+html[data-theme=dark] .module-icon.yellow{background:#3a3a3a;color:#c5c5c5}
+html[data-theme=dark] .stat-icon{background:#222222;color:#afafaf}
+html[data-theme=dark] .stat p,html[data-theme=dark] .stat strong span{color:#9c9c9c}
+html[data-theme=dark] .section-heading p,html[data-theme=dark] .route-note{color:#9b9b9b}
+html[data-theme=dark] .text-link{color:#b5b5b5}
+html[data-theme=dark] .text-link:hover{color:#dfdfdf}
+html[data-theme=dark] .bottom-tip{background:#252525;border-color:#3e3e3e}
+html[data-theme=dark] .bottom-tip p{color:#a8a8a8}
+html[data-theme=dark] .bottom-tip strong{color:#cfcfcf}
+html[data-theme=dark] .plan-check{border-color:#4d4d4d;color:#c6c6c6}
+html[data-theme=dark] .plan-check.checked{background:#414141;border-color:#414141}
+html[data-theme=dark] .daily-plan li{color:#bebebe}
+html[data-theme=dark] .daily-plan li small,html[data-theme=dark] .plan-line{color:#989898}
+html[data-theme=dark] .plan-line strong{color:#c6c6c6}
+html[data-theme=dark] .page-footer{color:#878787}
+html[data-theme=dark] .secondary,html[data-theme=dark] .icon-button,html[data-theme=dark] .filter{background:#2a2a2a;border-color:#454545;color:#bebebe}
+html[data-theme=dark] .secondary:hover,html[data-theme=dark] .icon-button:hover{background:#3c3c3c}
+html[data-theme=dark] .filter.active{background:#d7d7d7;color:#2b2b2b;border-color:#d7d7d7}
+html[data-theme=dark] .all-tasks-head input,html[data-theme=dark] dialog .search-input{background:#252525;border-color:#454545;color:#dddddd}
+html[data-theme=dark] input::placeholder{color:#9b9b9b}
+html[data-theme=dark] .task-status,html[data-theme=dark] .task-status.done{background:#393939;color:#d2d2d2}
+html[data-theme=dark] .task-status.locked{background:#2d2d2d;color:#8f8f8f}
+html[data-theme=dark] .task-info p,html[data-theme=dark] .task-meta,html[data-theme=dark] .task-module{color:#a0a0a0}
+html[data-theme=dark] .tabs button{color:#a3a3a3}
+html[data-theme=dark] .tabs button.active{color:#d7d7d7;border-bottom-color:#c8c8c8}
+html[data-theme=dark] .problem-content,html[data-theme=dark] .cheat-content{color:#bcbcbc}
+html[data-theme=dark] .problem-content code,html[data-theme=dark] .cheat-content code{background:#353535;color:#dcdcdc}
+html[data-theme=dark] .problem-content pre,html[data-theme=dark] .cheat-content pre{background:#1b1b1b;border-color:#414141;color:#c8c8c8}
+html[data-theme=dark] .hint-box{background:#313131;border-color:#4c4c4c;color:#c6c6c6}
+html[data-theme=dark] .hint-box strong{color:#d3d3d3}
+html[data-theme=dark] .task-step{background:#404040}
+html[data-theme=dark] .task-step.done{background:#b2b2b2}
+html[data-theme=dark] .task-step.current{background:#cfcfcf}
+html[data-theme=dark] .output-heading{color:#bdbdbd}
+html[data-theme=dark] .output-body{color:#d2d2d2}
+html[data-theme=dark] .output-placeholder{color:#9c9c9c}
+html[data-theme=dark] .output-body.error{color:#b4b4b4}
+html[data-theme=dark] .test-result{color:#c4c4c4}
+html[data-theme=dark] .test-result pre{background:#2e2e2e;color:#c9c9c9}
+html[data-theme=dark] .success-banner{background:#3a3a3a;border-color:#646464;color:#d8d8d8}
+html[data-theme=dark] .progress-ring{background:conic-gradient(#cccccc var(--value),#383838 0)}
+html[data-theme=dark] .progress-ring-inner{background:var(--paper)}
+html[data-theme=dark] .progress-overview p,html[data-theme=dark] .progress-ring span,html[data-theme=dark] .achievement p,html[data-theme=dark] .storage-note{color:#a9a9a9}
+html[data-theme=dark] .progress-track{background:#373737}
+html[data-theme=dark] dialog{background:#252525;border-color:#494949;color:#e7e7e7}
+html[data-theme=dark] dialog p,html[data-theme=dark] dialog ol{color:#bfbfbf}
+html[data-theme=dark] .preference-buttons .icon-button{background:none;border-color:transparent}
+html[data-theme=dark] .preference-buttons .icon-button:hover{background:#353535}
+html[data-theme=dark] .practice-note,html[data-theme=dark] .runtime-status{color:#9e9e9e}
+.welcome-dialog{text-align:center;width:440px;padding:37px 30px;background:var(--paper)}
+.welcome-emblem{height:72px;width:72px;margin:0 auto 22px;border:1px solid #9a9a9a44;background:#78787817;border-radius:20px;display:flex;align-items:center;justify-content:center;font:700 36px monospace;letter-spacing:-5px;color:var(--green);padding-right:5px;box-shadow:0 0 60px #92929218}
+.welcome-emblem span{color:#bdbdbd}.welcome-dialog .eyebrow{color:#a0a0a0;font-size:9px;letter-spacing:2px}.welcome-dialog h2{font-size:30px;line-height:1.35;margin:13px 0 25px;letter-spacing:-1px}.welcome-quote{font-size:14px!important;font-weight:650;line-height:1.8;color:var(--ink)!important}.welcome-caption{font-size:11px!important;line-height:1.9;margin-bottom:25px!important}.welcome-dialog>.primary{width:100%;font-size:12px;padding:13px 20px}.welcome-dialog>.text-link{margin:9px auto 0;padding:9px}.welcome-footnote{font-size:9px!important;margin:20px 0 0!important;opacity:.65}
+.module-card h3{min-height:22px}.module-card .module-description{min-height:29px}
+@media(max-width:750px){.topbar-actions{gap:12px}.preference-buttons{gap:3px}.preference-buttons .icon-button{width:27px;height:29px}.streak{font-size:9px}.welcome-dialog{padding:29px 24px}.welcome-dialog h2{font-size:27px}}
+@media(max-width:440px){.topbar-actions{gap:12px}.topbar .avatar{width:26px;height:26px}.module-card h3{min-height:36px}.hero .eyebrow{letter-spacing:1px}}
+
+/* Black workspace: every surface uses neutral black or graphite. */
+html[data-theme=dark]{--bg:#000000;--paper:#080808;--ink:#e8e8e8;--muted:#a3a3a3;--text:#b4b4b4;--green:#d0d0d0;--lime:#e0e0e0;--border:#272727;--soft:#141414}
+html[data-theme=dark] .sidebar,html[data-theme=dark] .topbar{background:#000;border-color:#222}
+html[data-theme=dark] .hero{background:#080808;border-color:#303030}
+html[data-theme=dark] .brand-mark{background:#1b1b1b;border:1px solid #454545;color:#fff}
+html[data-theme=dark] .brand-mark span,html[data-theme=dark] .brand i,html[data-theme=dark] .hero .eyebrow span{color:#d4d4d4;background-color:#777}
+html[data-theme=dark] .brand-mark span{background:none}
+html[data-theme=dark] .primary,html[data-theme=dark] .check-button{background:#1c1c1c;border:1px solid #686868;color:#f4f4f4}
+html[data-theme=dark] .primary:hover,html[data-theme=dark] .check-button:hover{background:#303030;border-color:#9a9a9a}
+html[data-theme=dark] .module-card.available{border-color:#575757;box-shadow:none}
+html[data-theme=dark] .module-icon,html[data-theme=dark] .module-icon.blue,html[data-theme=dark] .module-icon.purple,html[data-theme=dark] .module-icon.peach,html[data-theme=dark] .module-icon.pink,html[data-theme=dark] .module-icon.yellow{background:#171717;color:#bdbdbd}
+html[data-theme=dark] .editor-card{background:#050505;border-color:#303030;box-shadow:none}
+html[data-theme=dark] .editor-toolbar,html[data-theme=dark] .editor-actions,html[data-theme=dark] .editor-input{border-color:#282828;color:#aaa}
+html[data-theme=dark] .editor-toolbar .icon,html[data-theme=dark] .editor-toolbar-tools button{color:#aaa}
+html[data-theme=dark] .code-editor{color:#ddd;caret-color:#fff}
+html[data-theme=dark] .line-numbers{color:#666}
+html[data-theme=dark] .editor-input textarea{background:#000;border-color:#383838;color:#ddd}
+html[data-theme=dark] .editor-input label,html[data-theme=dark] .editor-input small{color:#999}
+html[data-theme=dark] .run-button{background:#181818;border-color:#494949;color:#ddd}
+html[data-theme=dark] .hint-box,html[data-theme=dark] .bottom-tip,html[data-theme=dark] .success-banner{background:#111;border-color:#383838;color:#c5c5c5}
+html[data-theme=dark] .filter.active{background:#333;color:#fff;border-color:#666}
+html[data-theme=dark] .test-result .icon,html[data-theme=dark] .test-result.failed .icon{color:#ccc}
+html[data-theme=dark] .streak .icon,html[data-theme=dark] .bottom-tip .icon{color:#aaa}
+html[data-theme=dark] .path-art,html[data-theme=dark] .little-plant{filter:grayscale(1) brightness(.7)}
+html[data-theme=dark] .hero-visual .grid-pattern{background-image:linear-gradient(#77777720 1px,transparent 1px),linear-gradient(90deg,#77777720 1px,transparent 1px)}
+html[data-theme=dark] .toast{background:#202020;border:1px solid #555;color:#eee}
+html[data-theme=dark] .welcome-emblem{background:#111;border-color:#444;box-shadow:0 0 60px #ffffff08}
+html[data-theme=dark] .welcome-emblem span{color:#ccc}
+html[data-theme=dark] ::selection{background:#555;color:#fff}
+html[data-theme=dark] dialog::backdrop{background:#000a}
+html[data-theme=dark] .task-status,html[data-theme=dark] .badge,html[data-theme=dark] .module-status{background:#1a1a1a;color:#ccc}
+html[data-theme=dark] .floating-code,html[data-theme=dark] .float-success{background:#111;border-color:#444}
+html[data-theme=dark] .floating-code .pink,html[data-theme=dark] .floating-code .green{color:#ccc}
+html[data-theme=dark] .preference-buttons .icon-button{background:none}
+html[data-theme=dark] .progress-track{background:#222}
+html[data-theme=dark] .progress-track span{background:#999}
+html[data-theme=dark] button:focus-visible,html[data-theme=dark] a:focus-visible,html[data-theme=dark] summary:focus-visible{outline-color:#aaa}
+html[data-theme=dark] .floating-code code span{color:#aaa!important}
+html[data-theme=dark] .achievement>span{filter:grayscale(1)!important}
+html[data-theme=dark] .error-note{color:#bbb}
+.app-shell{padding-bottom:105px}
+.focus-player{position:fixed;right:25px;bottom:22px;width:292px;border:1px solid #383838;border-radius:13px;padding:13px 15px;background:#080808;color:#dedede;z-index:25;box-shadow:0 8px 35px #0009;font-size:11px}
+.focus-track{display:flex;align-items:center;gap:11px}.music-art{width:36px;height:36px;border:1px solid #333;border-radius:9px;background:#131313;color:#a0a0a0;display:flex;align-items:center;justify-content:center;flex-shrink:0}.music-art .icon{width:18px;height:18px}.focus-track-info{flex:1;min-width:0}.focus-track-info strong{display:block;font-size:12px;font-weight:650;line-height:1.4}.focus-track-info>span{font-size:8px;color:#909090;display:block;margin-top:3px;line-height:1.6}.music-play{width:32px;height:32px;display:flex;align-items:center;justify-content:center;border-radius:50%;background:#222;border:1px solid #555;color:#e0e0e0;flex-shrink:0}.music-play:hover{background:#383838;border-color:#888}.music-play .icon{width:16px;height:16px}.music-volume-row{display:flex;align-items:center;gap:11px;margin-top:12px;font-size:8px;color:#999}.music-volume-row input{width:100%;min-width:0;height:12px;margin:0;accent-color:#b0b0b0;cursor:pointer}.music-volume-row output{font-size:8px;width:26px;text-align:right;flex-shrink:0}.focus-player.is-playing .music-art{color:#ddd;border-color:#777}.focus-player.is-playing .focus-track-info strong::after{content:' ·';color:#aaa}.focus-player input:focus-visible{outline:2px solid #aaa;outline-offset:3px}
+@media(max-width:750px){.focus-player{right:17px;bottom:14px;width:275px;padding:11px 13px}.app-shell{padding-bottom:118px}}
+@media(max-width:440px){.focus-player{left:17px;right:17px;width:auto}.music-volume-row{margin-top:9px}.focus-track-info>span{font-size:9px}}
