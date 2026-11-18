@@ -6,6 +6,7 @@
   "description": "Практика основ Python: 40 задач с постепенным усложнением",
   "scripts": {
     "start": "python3 -B scripts/start_local.py",
+    "build:local": "python3 -B scripts/build-local.py",
     "check": "node --check dist/app.js && node --check dist/data.js && node --check dist/progress.js && node --check dist/preferences.js && node --check dist/music.js && node --check dist/python-worker.js && node scripts/check-curriculum.mjs"
   }
 }
